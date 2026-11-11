@@ -1,0 +1,25 @@
+{
+ "name": "Screening studi cardiologia",
+ "short_name": "Screening",
+ "description": "Pre-screening anonimo degli studi aperti della Cardiologia",
+ "lang": "it",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f4f6f9",
+ "theme_color": "#1d4ed8",
+ "icons": [
+  {
+   "src": "icona-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icona-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
