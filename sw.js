@@ -1,6 +1,6 @@
 // Funziona anche senza rete: la pagina e le icone restano sul telefono.
 // Con la rete prende sempre la versione piu recente (criteri aggiornati).
-const CACHE = "screening-1.6 del 14/10/2026-2026-11-11-133801";
+const CACHE = "screening-1.7 del 11/11/2026-2026-11-11-143337";
 const FILE = ["./", "index.html", "manifest.webmanifest", "icona-192.png", "icona-512.png", "apple-touch-icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILE))); self.skipWaiting(); });
 self.addEventListener("activate", e => {
